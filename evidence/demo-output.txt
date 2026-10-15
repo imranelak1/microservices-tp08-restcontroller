@@ -1,0 +1,16 @@
+APPLICATION RÉELLE : banque-restcontroller sur http://localhost:18008
+GET /banque/comptes [application/json] -> HTTP 200
+[{"id":1,"solde":5000.0,"dateCreation":"2024-10-30","type":"EPARGNE"},{"id":2,"solde":2500.0,"dateCreation":"2024-10-31","type":"COURANT"},{"id":3,"solde":7200.0,"dateCreation":"2024-11-01","type":"EPARGNE"}]
+GET /banque/comptes [application/xml] -> HTTP 200
+<List><item><id>1</id><solde>5000.0</solde><dateCreation>2024-10-30</dateCreation><type>EPARGNE</type></item><item><id>2</id><solde>2500.0</solde><dateCreation>2024-10-31</dateCreation><type>COURANT</type></item><item><id>3</id><solde>7200.0</solde><dateCreation>2024-11-01</dateCreation><type>EPARGNE</type></item></List>
+POST /banque/comptes [application/json] -> HTTP 201
+{"id":4,"solde":1500.0,"dateCreation":"2024-11-01","type":"COURANT"}
+PUT /banque/comptes/4 [application/xml] -> HTTP 200
+<compte><id>4</id><solde>2000.0</solde><dateCreation>2024-11-02</dateCreation><type>EPARGNE</type></compte>
+GET /banque/comptes/4 [application/json] -> HTTP 200
+{"id":4,"solde":2000.0,"dateCreation":"2024-11-02","type":"EPARGNE"}
+DELETE /banque/comptes/4 [application/json] -> HTTP 200
+GET /banque/comptes/4 [application/json] -> HTTP 404
+GET /v3/api-docs -> HTTP 200, Swagger disponible
+GET /swagger-ui/index.html -> HTTP 200, interface Swagger réelle
+VÉRIFICATIONS HTTP RÉUSSIES

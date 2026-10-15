@@ -1,0 +1,44 @@
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2026-10-15T01:18:00.980Z  INFO 107 --- [           main] ma.rest.spring.MsBanqueApplication       : Starting MsBanqueApplication v1.0.0 using Java 17.0.20.1 with PID 107 (/tmp/live-app.jar started by root in /work)
+2026-10-15T01:18:00.988Z  INFO 107 --- [           main] ma.rest.spring.MsBanqueApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-15T01:18:03.282Z  INFO 107 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-15T01:18:03.385Z  INFO 107 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
+2026-10-15T01:18:04.620Z  INFO 107 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 18008 (http)
+2026-10-15T01:18:04.647Z  INFO 107 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-15T01:18:04.673Z  INFO 107 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2026-10-15T01:18:04.829Z  INFO 107 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-15T01:18:04.846Z  INFO 107 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3667 ms
+2026-10-15T01:18:04.911Z  INFO 107 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-15T01:18:05.423Z  INFO 107 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:banque user=SA
+2026-10-15T01:18:05.427Z  INFO 107 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-15T01:18:05.478Z  INFO 107 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:banque'
+2026-10-15T01:18:05.820Z  INFO 107 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-15T01:18:05.974Z  INFO 107 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2026-10-15T01:18:05.982Z  INFO 107 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2026-10-15T01:18:06.302Z  INFO 107 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2026-10-15T01:18:06.728Z  INFO 107 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-15T01:18:06.901Z  INFO 107 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2026-10-15T01:18:07.480Z  INFO 107 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2026-10-15T01:18:09.327Z  INFO 107 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-10-15T01:18:09.470Z  INFO 107 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-15T01:18:12.175Z  INFO 107 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 18008 (http) with context path ''
+2026-10-15T01:18:12.216Z  INFO 107 --- [           main] ma.rest.spring.MsBanqueApplication       : Started MsBanqueApplication in 12.373 seconds (process running for 13.425)
+2026-10-15T01:18:13.318Z  INFO 107 --- [io-18008-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-15T01:18:13.319Z  INFO 107 --- [io-18008-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-15T01:18:13.320Z  INFO 107 --- [io-18008-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Compte(id=1, solde=5000.0, dateCreation=2024-10-30, type=EPARGNE)
+Compte(id=2, solde=2500.0, dateCreation=2024-10-31, type=COURANT)
+Compte(id=3, solde=7200.0, dateCreation=2024-11-01, type=EPARGNE)
+2026-10-15T01:18:15.813Z  INFO 107 --- [o-18008-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 715 ms
+2026-10-15T01:18:16.002Z  INFO 107 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-15T01:18:16.006Z  INFO 107 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-15T01:18:16.011Z  INFO 107 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

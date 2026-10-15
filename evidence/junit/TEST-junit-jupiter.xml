@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite name="JUnit Jupiter" tests="7" skipped="0" failures="0" errors="0" time="13.272" hostname="c56bbe82983c" timestamp="2026-10-15T01:17:55">
+<properties>
+<property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+<property name="FILE_LOG_CHARSET" value="UTF-8"/>
+<property name="PID" value="46"/>
+<property name="catalina.base" value="/tmp/tomcat.0.3528067968101768591"/>
+<property name="catalina.home" value="/tmp/tomcat.0.3528067968101768591"/>
+<property name="catalina.useNaming" value="false"/>
+<property name="com.zaxxer.hikari.pool_number" value="1"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="/"/>
+<property name="java.awt.headless" value="true"/>
+<property name="java.class.path" value="/tmp/foundations-162/classes:/tmp/foundations-162/junit-platform-console-standalone-1.9.3.jar:/tmp/foundations-162/libs/spring-orm-spring-orm-6.0.9.jar:/tmp/foundations-162/libs/txw2-txw2-4.0.2.jar:/tmp/foundations-162/libs/jakarta.validation-api-jakarta.validation-api-3.0.2.jar:/tmp/foundations-162/libs/spring-expression-spring-expression-6.0.9.jar:/tmp/foundations-162/libs/spring-boot-test-autoconfigure-spring-boot-test-autoconfigure-3.1.0.jar:/tmp/foundations-162/libs/spring-boot-starter-tomcat-spring-boot-starter-tomcat-3.1.0.jar:/tmp/foundations-162/libs/jakarta.transaction-api-jakarta.transaction-api-2.0.1.jar:/tmp/foundations-162/libs/jsonassert-jsonassert-1.5.1.jar:/tmp/foundations-162/libs/spring-aop-spring-aop-6.0.9.jar:/tmp/foundations-162/libs/spring-context-spring-context-6.0.9.jar:/tmp/foundations-162/libs/micrometer-commons-micrometer-commons-1.11.0.jar:/tmp/foundations-162/libs/jakarta.activation-api-jakarta.activation-api-2.1.2.jar:/tmp/foundations-162/libs/spring-boot-autoconfigure-spring-boot-autoconfigure-3.1.0.jar:/tmp/foundations-162/libs/swagger-core-jakarta-swagger-core-jakarta-2.2.9.jar:/tmp/foundations-162/libs/jackson-module-parameter-names-jackson-module-parameter-names-2.15.0.jar:/tmp/foundations-162/libs/istack-commons-runtime-istack-commons-runtime-4.1.1.jar:/tmp/foundations-162/libs/classmate-classmate-1.5.1.jar:/tmp/foundations-162/libs/asm-asm-9.3.jar:/tmp/foundations-162/libs/spring-data-jpa-spring-data-jpa-3.1.0.jar:/tmp/foundations-162/libs/swagger-annotations-jakarta-swagger-annotations-jakarta-2.2.9.jar:/tmp/foundations-162/libs/byte-buddy-agent-byte-buddy-agent-1.14.4.jar:/tmp/foundations-162/libs/commons-lang3-commons-lang3-3.12.0.jar:/tmp/foundations-162/libs/jackson-annotations-jackson-annotations-2.15.0.jar:/tmp/foundations-162/libs/spring-jdbc-spring-jdbc-6.0.9.jar:/tmp/foundations-162/libs/spring-webmvc-spring-webmvc-6.0.9.jar:/tmp/foundations-162/libs/angus-activation-angus-activation-2.0.0.jar:/tmp/foundations-162/libs/swagger-models-jakarta-swagger-models-jakarta-2.2.9.jar:/tmp/foundations-162/libs/spring-boot-spring-boot-3.1.0.jar:/tmp/foundations-162/libs/springdoc-openapi-starter-webmvc-ui-springdoc-openapi-starter-webmvc-ui-2.1.0.jar:/tmp/foundations-162/libs/h2-h2-2.1.214.jar:/tmp/foundations-162/libs/spring-aspects-spring-aspects-6.0.9.jar:/tmp/foundations-162/libs/spring-core-spring-core-6.0.9.jar:/tmp/foundations-162/libs/jackson-dataformat-yaml-jackson-dataformat-yaml-2.15.0.jar:/tmp/foundations-162/libs/jandex-jandex-3.0.5.jar:/tmp/foundations-162/libs/logback-classic-logback-classic-1.4.7.jar:/tmp/foundations-162/libs/tomcat-embed-el-tomcat-embed-el-10.1.8.jar:/tmp/foundations-162/libs/android-json-android-json-0.0.20131108.vaadin1.jar:/tmp/foundations-162/libs/spring-boot-starter-jdbc-spring-boot-starter-jdbc-3.1.0.jar:/tmp/foundations-162/libs/spring-beans-spring-beans-6.0.9.jar:/tmp/foundations-162/libs/jboss-logging-jboss-logging-3.5.0.Final.jar:/tmp/foundations-162/libs/stax2-api-stax2-api-4.2.1.jar:/tmp/foundations-162/libs/woodstox-core-woodstox-core-6.5.1.jar:/tmp/foundations-162/libs/accessors-smart-accessors-smart-2.4.9.jar:/tmp/foundations-162/libs/spring-web-spring-web-6.0.9.jar:/tmp/foundations-162/libs/spring-data-commons-spring-data-commons-3.1.0.jar:/tmp/foundations-162/libs/jakarta.persistence-api-jakarta.persistence-api-3.1.0.jar:/tmp/foundations-162/libs/tomcat-embed-websocket-tomcat-embed-websocket-10.1.8.jar:/tmp/foundations-162/libs/spring-boot-starter-test-spring-boot-starter-test-3.1.0.jar:/tmp/foundations-162/libs/jakarta.xml.bind-api-jakarta.xml.bind-api-4.0.0.jar:/tmp/foundations-162/libs/slf4j-api-slf4j-api-2.0.7.jar:/tmp/foundations-162/libs/spring-boot-devtools-spring-boot-devtools-3.1.0.jar:/tmp/foundations-162/libs/logback-core-logback-core-1.4.7.jar:/tmp/foundations-162/libs/jackson-datatype-jsr310-jackson-datatype-jsr310-2.15.0.jar:/tmp/foundations-162/libs/mockito-junit-jupiter-mockito-junit-jupiter-5.3.1.jar:/tmp/foundations-162/libs/assertj-core-assertj-core-3.24.2.jar:/tmp/foundations-162/libs/antlr4-runtime-antlr4-runtime-4.10.1.jar:/tmp/foundations-162/libs/jaxb-runtime-jaxb-runtime-4.0.2.jar:/tmp/foundations-162/libs/jaxb-core-jaxb-core-4.0.2.jar:/tmp/foundations-162/libs/spring-test-spring-test-6.0.9.jar:/tmp/foundations-162/libs/hibernate-commons-annotations-hibernate-commons-annotations-6.0.6.Final.jar:/tmp/foundations-162/libs/log4j-to-slf4j-log4j-to-slf4j-2.20.0.jar:/tmp/foundations-162/libs/jackson-core-jackson-core-2.15.0.jar:/tmp/foundations-162/libs/spring-jcl-spring-jcl-6.0.9.jar:/tmp/foundations-162/libs/json-path-json-path-2.8.0.jar:/tmp/foundations-162/libs/xmlunit-core-xmlunit-core-2.9.1.jar:/tmp/foundations-162/libs/jackson-dataformat-xml-jackson-dataformat-xml-2.15.0.jar:/tmp/foundations-162/libs/spring-boot-starter-json-spring-boot-starter-json-3.1.0.jar:/tmp/foundations-162/libs/swagger-ui-swagger-ui-4.18.2.jar:/tmp/foundations-162/libs/jakarta.inject-api-jakarta.inject-api-2.0.1.jar:/tmp/foundations-162/libs/log4j-api-log4j-api-2.20.0.jar:/tmp/foundations-162/libs/spring-tx-spring-tx-6.0.9.jar:/tmp/foundations-162/libs/jackson-databind-jackson-databind-2.15.0.jar:/tmp/foundations-162/libs/tomcat-embed-core-tomcat-embed-core-10.1.8.jar:/tmp/foundations-162/libs/byte-buddy-byte-buddy-1.14.4.jar:/tmp/foundations-162/libs/spring-boot-starter-logging-spring-boot-starter-logging-3.1.0.jar:/tmp/foundations-162/libs/spring-boot-starter-validation-spring-boot-starter-validation-3.1.0.jar:/tmp/foundations-162/libs/jul-to-slf4j-jul-to-slf4j-2.0.7.jar:/tmp/foundations-162/libs/spring-boot-starter-data-jpa-spring-boot-starter-data-jpa-3.1.0.jar:/tmp/foundations-162/libs/micrometer-observation-micrometer-observation-1.11.0.jar:/tmp/foundations-162/libs/springdoc-openapi-starter-webmvc-api-springdoc-openapi-starter-webmvc-api-2.1.0.jar:/tmp/foundations-162/libs/HikariCP-HikariCP-5.0.1.jar:/tmp/foundations-162/libs/spring-boot-test-spring-boot-test-3.1.0.jar:/tmp/foundations-162/libs/hibernate-core-hibernate-core-6.2.2.Final.jar:/tmp/foundations-162/libs/objenesis-objenesis-3.3.jar:/tmp/foundations-162/libs/aspectjweaver-aspectjweaver-1.9.19.jar:/tmp/foundations-162/libs/jackson-datatype-jdk8-jackson-datatype-jdk8-2.15.0.jar:/tmp/foundations-162/libs/hibernate-validator-hibernate-validator-8.0.0.Final.jar:/tmp/foundations-162/libs/springdoc-openapi-starter-common-springdoc-openapi-starter-common-2.1.0.jar:/tmp/foundations-162/libs/snakeyaml-snakeyaml-1.33.jar:/tmp/foundations-162/libs/jakarta.annotation-api-jakarta.annotation-api-2.1.1.jar:/tmp/foundations-162/libs/mockito-core-mockito-core-5.3.1.jar:/tmp/foundations-162/libs/spring-boot-starter-spring-boot-starter-3.1.0.jar:/tmp/foundations-162/libs/spring-boot-starter-aop-spring-boot-starter-aop-3.1.0.jar:/tmp/foundations-162/libs/spring-boot-starter-web-spring-boot-starter-web-3.1.0.jar:/tmp/foundations-162/libs/json-smart-json-smart-2.4.10.jar:/tmp/foundations-162/libs/lombok-lombok-1.18.26.jar:/tmp/foundations-162/libs/hamcrest-hamcrest-2.2.jar"/>
+<property name="java.class.version" value="61.0"/>
+<property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="17.0.20.1+1-1-deb12u1-Debian"/>
+<property name="java.specification.maintenance.version" value="1"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="17"/>
+<property name="java.vendor" value="Debian"/>
+<property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
+<property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-17"/>
+<property name="java.version" value="17.0.20.1"/>
+<property name="java.version.date" value="2026-08-18"/>
+<property name="java.vm.compressedOopsMode" value="32-bit"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="17"/>
+<property name="java.vm.vendor" value="Debian"/>
+<property name="java.vm.version" value="17.0.20.1+1-1-deb12u1-Debian"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="&#xa;"/>
+<property name="native.encoding" value="UTF-8"/>
+<property name="org.jboss.logging.provider" value="slf4j"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="6.6.87.2-microsoft-standard-WSL2"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --scan-class-path=/tmp/foundations-162/classes --details=tree --disable-ansi-colors --reports-dir=/work/evidence/junit"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="user.dir" value="/work"/>
+<property name="user.home" value="/root"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="root"/>
+<property name="user.timezone" value="UTC"/>
+</properties>
+<testcase name="listeJsonEtXml()" classname="ma.rest.spring.CompteApiTest" time="1.547">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:listeJsonEtXml()]
+display-name: listeJsonEtXml()
+]]></system-out>
+</testcase>
+<testcase name="valideEntrees()" classname="ma.rest.spring.CompteApiTest" time="0.093">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:valideEntrees()]
+display-name: valideEntrees()
+]]></system-out>
+</testcase>
+<testcase name="aliasPourClients()" classname="ma.rest.spring.CompteApiTest" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:aliasPourClients()]
+display-name: aliasPourClients()
+]]></system-out>
+</testcase>
+<testcase name="creeEtLitXml()" classname="ma.rest.spring.CompteApiTest" time="0.208">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:creeEtLitXml()]
+display-name: creeEtLitXml()
+]]></system-out>
+</testcase>
+<testcase name="swaggerEtH2Disponibles()" classname="ma.rest.spring.CompteApiTest" time="1.018">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:swaggerEtH2Disponibles()]
+display-name: swaggerEtH2Disponibles()
+]]></system-out>
+</testcase>
+<testcase name="crudJsonAvecLocationEt404()" classname="ma.rest.spring.CompteApiTest" time="0.243">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:crudJsonAvecLocationEt404()]
+display-name: crudJsonAvecLocationEt404()
+]]></system-out>
+</testcase>
+<testcase name="modificationEtSuppressionAbsentes()" classname="ma.rest.spring.CompteApiTest" time="0.025">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ma.rest.spring.CompteApiTest]/[method:modificationEtSuppressionAbsentes()]
+display-name: modificationEtSuppressionAbsentes()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>

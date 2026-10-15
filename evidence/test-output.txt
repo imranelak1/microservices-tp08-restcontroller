@@ -1,0 +1,80 @@
+Compilation réelle : javac -parameters -encoding UTF-8 (7 fichiers Java)
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+Exécution réelle : JUnit Platform Console, découverte des tests du projet
+Picked up JAVA_TOOL_OPTIONS: -Xmx256m -XX:MaxMetaspaceSize=160m -Duser.timezone=UTC
+01:17:41.936 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ma.rest.spring.CompteApiTest]: CompteApiTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:17:42.083 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ma.rest.spring.MsBanqueApplication for test class ma.rest.spring.CompteApiTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2026-10-15T01:17:42.724Z  INFO 46 --- [           main] ma.rest.spring.CompteApiTest             : Starting CompteApiTest using Java 17.0.20.1 with PID 46 (started by root in /work)
+2026-10-15T01:17:42.725Z  INFO 46 --- [           main] ma.rest.spring.CompteApiTest             : No active profile set, falling back to 1 default profile: "default"
+2026-10-15T01:17:44.242Z  INFO 46 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-15T01:17:44.345Z  INFO 46 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2026-10-15T01:17:45.608Z  INFO 46 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2026-10-15T01:17:45.635Z  INFO 46 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-15T01:17:45.636Z  INFO 46 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2026-10-15T01:17:45.822Z  INFO 46 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-15T01:17:45.824Z  INFO 46 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3020 ms
+2026-10-15T01:17:45.910Z  INFO 46 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-15T01:17:46.202Z  INFO 46 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:banque user=SA
+2026-10-15T01:17:46.204Z  INFO 46 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-15T01:17:46.219Z  INFO 46 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:banque'
+2026-10-15T01:17:46.417Z  INFO 46 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-15T01:17:46.509Z  INFO 46 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2026-10-15T01:17:46.511Z  INFO 46 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2026-10-15T01:17:46.689Z  INFO 46 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2026-10-15T01:17:46.857Z  INFO 46 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-15T01:17:46.930Z  INFO 46 --- [           main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2026-10-15T01:17:47.528Z  INFO 46 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2026-10-15T01:17:48.613Z  INFO 46 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-10-15T01:17:48.732Z  INFO 46 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-15T01:17:50.519Z  INFO 46 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 40605 (http) with context path ''
+2026-10-15T01:17:50.578Z  INFO 46 --- [           main] ma.rest.spring.CompteApiTest             : Started CompteApiTest in 8.303 seconds (process running for 9.921)
+Compte(id=1, solde=5000.0, dateCreation=2024-10-30, type=EPARGNE)
+Compte(id=2, solde=2500.0, dateCreation=2024-10-31, type=COURANT)
+Compte(id=3, solde=7200.0, dateCreation=2024-11-01, type=EPARGNE)
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+2026-10-15T01:17:53.074Z  INFO 46 --- [o-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-15T01:17:53.074Z  INFO 46 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-15T01:17:53.075Z  INFO 46 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-15T01:17:54.517Z  INFO 46 --- [o-auto-1-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 826 ms
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+╷
+├─ JUnit Jupiter ✔
+│  └─ CompteApiTest ✔
+│     ├─ listeJsonEtXml() ✔
+│     ├─ creeEtLitXml() ✔
+│     ├─ valideEntrees() ✔
+│     ├─ swaggerEtH2Disponibles() ✔
+│     ├─ aliasPourClients() ✔
+│     ├─ modificationEtSuppressionAbsentes() ✔
+│     └─ crudJsonAvecLocationEt404() ✔
+├─ JUnit Vintage ✔
+└─ JUnit Platform Suite ✔
+
+Test run finished after 13430 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         7 tests found           ]
+[         0 tests skipped         ]
+[         7 tests started         ]
+[         0 tests aborted         ]
+[         7 tests successful      ]
+[         0 tests failed          ]
+
+2026-10-15T01:17:55.110Z  INFO 46 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-15T01:17:55.116Z  INFO 46 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-15T01:17:55.119Z  INFO 46 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
